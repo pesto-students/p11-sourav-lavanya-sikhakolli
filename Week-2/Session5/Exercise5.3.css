@@ -1,0 +1,41 @@
+.img1{
+    margin-top: 80px;
+    width:300px;
+}
+.img2{
+     width:300px;
+}
+body{
+    margin-left: 150px;
+    margin-right: 26px;
+    width: 1070px;
+}
+h1{
+    font-size:24px;
+    font-family: Arial;
+    color: white;
+    background-color: red;
+    padding: 5px;
+
+}
+
+#author-name-and-date{
+    color:lightgrey;
+    font-size: 12px;
+    font-family: Arial;
+}
+p{
+    font-family: 'Times New Roman';
+    font-size: 26px;
+    color:gray;
+}
+ol{
+    font-family: 'Times New Roman';
+    font-size: 26px;
+    color:gray;
+}
+a{
+    font-family: Arial;
+    font-size: 12px;
+    color: blue;
+}

@@ -1,0 +1,38 @@
+table{
+   border:2px solid green;
+   text-align: center;
+   width:450px;
+   height: 200px;
+}
+#game-table{
+   margin-top: 100px;
+   margin-left: 100px;
+}
+caption{
+   text-align: center;
+   font-size: 17px;
+   background-color: rgb(0, 128, 0);
+   color:white; 
+   padding: 8px;  
+   text-transform: uppercase;                                       
+}
+th{
+   font:10px;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   padding:8px;
+   border-bottom: 1px solid #f1f1f1;
+}
+td{
+   font:12px;
+   text-align: center;
+   padding:10px;
+   border: 1px solid #f1f1f1;
+}
+tr:nth-child(even){
+   background-color: rgb(229, 252, 229);
+}
+p{
+   margin-left:100px;
+}
