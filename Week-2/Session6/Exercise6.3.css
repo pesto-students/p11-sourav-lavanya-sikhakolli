@@ -1,0 +1,78 @@
+.table {
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 400px;
+    height: 300px;
+    background-image: linear-gradient(to bottom,forestgreen,darkgreen);
+     position: relative;
+    /* Part of your solution goes here */
+    
+ }
+ 
+ .cardRed {
+    color: red;
+ }
+ 
+ .cardBlack {
+    color: black;
+ }
+ 
+ .card {
+    background-color: whitesmoke;
+    border: 1px solid black;         
+    width: 100px;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+    /* Part of your solution goes here */
+    position: relative;
+ 
+ }      
+ 
+ .cardTop {
+   position: absolute;
+   left: 147px;
+   top: 100px;
+   /*to make this card to the top over the other ,we are giving z-index of this card as highest*/
+  z-index: 1;
+ }
+ 
+ .cardBottom {
+ position: absolute;
+ left: 240px;
+ top: 120px;
+ z-index: 0;
+ }
+ 
+ .heart {
+    color: red;
+    font-size: 28px; 
+    width: 30px;
+    height: 30px;  
+    line-height: 30px;
+ }
+ 
+ .spade {
+    color: black;
+    font-size: 36px; 
+    width: 30px;
+    height: 30px;  
+    line-height: 30px;
+ }
+ 
+ .topLeft {
+    /* Part of your solution goes here */
+   position: absolute;
+   left: 2px;
+   top: 2px;
+ }
+ 
+ .bottomRight {
+    /* Part of your solution goes here */
+ position: absolute;
+ right: 2px;
+ bottom: 2px;
+ }

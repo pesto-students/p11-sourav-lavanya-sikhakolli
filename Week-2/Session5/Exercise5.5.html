@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Product Rating</title>
+   
+      <style>
+        h1{
+            font-size: 50px;
+        }
+         body {
+            font-family: Calibri, Myriad;
+            margin-left:100px;
+         }
+        div {
+            margin-bottom: 5px;
+
+         }
+         input{
+            padding: 10px;
+            width: 300px;
+         }
+         textarea{
+            padding: 10px;
+            width: 300px;
+         }
+         label{
+            display: inline-block;
+            width: 120px;
+         }
+         .required:after {
+         content:"*";
+         color: red;
+         }
+         
+         .inputbox{
+            width: 350px;
+            height: 30px;
+            background-color: rgb(196, 247, 247);
+            border-left: 2px solid rgb(172, 170, 170);
+            border-top: 2px solid rgb(172,170,170);
+            border-right: 2px solid white;
+            border-bottom:2px solid white;
+         }
+        textarea{
+         width: 350px;
+         height: 67px;
+        }
+       .button{
+         width:120px;
+         padding: 10px;
+
+       }
+      </style>
+   </head>
+   <body>
+      <h1>Rate a Product</h1>
+      <p><span class="required" ></span> indicates required field.</p>
+      <form>
+         <div>
+            <label class="required">Product</label>
+            <input class="inputbox" type="text" name="title">
+         </div>
+         <div>
+            <label class="required">Purchase Date</label>
+            <input  class="inputbox" type="date" name="purchase-date">
+         </div>
+         <div>
+            <label class="required">Rating</label>
+            <input class="inputbox" type="number" name="rating" value="4" min="1" max="10">
+         </div> 
+         <div> 
+            <label>Comments</label>      
+            <textarea rows="3" cols="50" name="comments"></textarea> 
+         </div>
+         <input class="button" type="submit" value="Submit Rating">
+      </form>
+   </body>
+</html>

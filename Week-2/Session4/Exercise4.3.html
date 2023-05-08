@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>Starting LineUp</h1>
+    <form>
+        <fieldset>
+            <legend>Status:</legend>
+            <!--For the Radio buttons ,to make it as default,we need to use the checked -->
+            <input type="radio" name="draft" id="draft">
+            <label for="draft">Draft</label>
+            <input type="radio" name="final" id="final" checked>
+            <label for="final">Final</label>
+        </fieldset>
+        <br>
+        <label for="date">Date:</label>
+        <select> 
+            <!--To get list of values ,we are using select by giving the required options-->
+            <option value="opt1">March 20</option>
+            <option value="opt2">March 24</option>
+            <option value="opt3">April 2</option>
+            <option value="opt4">April 6</option>
+            <option value="opt5">April 13</option>
+        </select>
+        <br>
+        <br>
+       <fieldset><!--To get the box around the players -->
+            <legend>Players:</legend><!--To get the players in the alignment of box-->
+            <!--For the checkbox type-->
+            <input type="checkbox" name="name1" id="id1">
+            <label for="name1">Aarav Agarwal</label><br>
+            <input type="checkbox" name="name2" id="id2">
+            <label for="name2">Ava Jhonson</label><br>
+            <input type="checkbox" name="name3" id="id3">
+            <label for="name3">Julio Ortiz</label><br>
+            <input type="checkbox" name="name4" id="id4">
+            <label for="name4">Liam Rubio</label><br>
+            <input type="checkbox" name="name5" id="id5">
+            <label for="name5">Emma Witherspoon</label><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

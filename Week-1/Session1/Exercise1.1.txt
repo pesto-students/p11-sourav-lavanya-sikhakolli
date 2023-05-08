@@ -1,0 +1,51 @@
+Q1)What is a protocol stack, and how is it used in web development?
+protocol stack is that is used to define locate implement and make web services interact with each other.
+protocol layers:it is made up of four layers
+1)application layer:http-secure(use https for security rather than http)
+Application layer protocols define how application processes (clients and servers), running on different end systems, pass messages to each other. 
+In particular, an application layer is an abstract layer that handles the sharing protocol of the TCP/IP and OSI model.
+2)transport layer:TCP_builds apath/connection between client and server
+The transport layer (TCP, SCTP, and UDP) reads the header to determine which application layer protocol must receive the data.
+Then, TCP, SCTP, or UDP strips off its related header. TCP, SCTP, or UDP sends the message or stream to the receiving application.
+3)network layer:IP(v4,v6)-ip adress
+it accepts and delivers packets for the network.
+IP protocol is responsible for ip adressing,host to host ommunications,packet formatting,fragmentation
+4)link layer-ethernet-physical layer
+The data link layer takes the data bits and “frames,” and creates packets of the data to guarantee reliable transmission. 
+The three main functions of the data link layer are to deal with transmission errors,regulate the flow of data,and provide a well-defined 
+interface to the network layer.
+
+Q2)What are the different types of web servers, and how do they differ in terms of functionality and performance?
+types of servers:
+web server-read only server(static)
+application server-dynamic
+FTP server-for uploading the files
+A Web server exclusively handles HTTP/HTTPS requests. It serves content to the web using HTTP/HTTPS protocol.
+An application server serves business logic to application programs through any number of protocols, possibly including HTTP.
+FTP is more efficient at transferring large files, whereas HTTP is better for transferring smaller files such as web pages
+Although both utilize TCP as the protocol of choice, HTTP uses a persistent connection,thus making the performance of the TCP better 
+with HTTP than with FTP.
+
+Q3)What is web hosting, and what are the different types of hosting services available for websites?
+hosting is, if we create any website that should be able to use by others or by myself.
+Web hosting is an online service that enables you to publish your website or web application on the internet. 
+types:shared hosting,cloud hosting,managed hosting,VPs hosting,dedicated hosting
+
+Q4)What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+scaling is the potential of your application to cope with increasing numbers of users simultaneously interacting with it.
+your application should be able to grow and be able to handle more and more requests per minute (RPMs).
+in vertical scaling-it is done by increasing the processing power
+in horizontal scaling-it is done by increasing the number of machines
+
+Q5)What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+It is the process of maximizing the number of visitors to a particular website by ensuring that the site appears high on the list of results 
+returned by a search engine.
+and we can optimise the websites for better search engine rankings in 7ways:
+1. Target The Right Keywords
+2. By creating new content
+3. By Optimising Your META Tags
+4. By Checking on Your Page Load Time
+5. By Making Your Website Responsive
+6. By Reviewing Your Competitors Websites
+7. Build trust
+

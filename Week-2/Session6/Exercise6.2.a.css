@@ -1,0 +1,40 @@
+p:nth-child(5) {
+    background: revert;
+    box-shadow: revert;
+    padding: revert;
+ }
+ *{
+    font: arial;
+    font-size: 30px;
+    margin-right:120px;
+    background-image: radial-gradient(to bottom,white,lightgray);
+ }
+ a {
+    font-size: 12px;
+    margin-left: 10px;
+ }
+h1{
+    font-size: 60px;
+    margin-left: 10px;
+    color: darkblue;
+    padding: 8px;
+    text-shadow: 5px 5px 6px gray;
+
+} 
+.p1{
+    color: white;
+    width: 700px;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 5px 5px 6px gray;
+    background-image: linear-gradient(to bottom,blue,rgb(130,130,245));
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.main{
+    margin-left: 100px;
+    width:800px;
+    background-color: lightgray;
+}
